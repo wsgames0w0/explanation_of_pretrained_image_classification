@@ -1,0 +1,35 @@
+# Python virtual environment
+venv/
+.venv/
+ENV/
+env/
+
+# Datasets and reference papers
+datasets/
+ref/
+
+# Project instruction and memo files
+common.md
+prompt.md
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Model checkpoints / binary weights
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Jupyter / IDE / OS hidden files
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.gemini/
+.DS_Store
+Thumbs.db
+.*
+!.gitignore
